@@ -1,0 +1,59 @@
+.page {
+    $root: &;
+
+    &__block {
+        display: flex;
+
+        &-el {
+            width: 50%;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 3px;
+
+
+            a {
+                font-weight: bold;
+            }
+
+            &--red {
+                background-color: red;
+                margin-right: 5px;
+            }
+
+            &--green {
+                background-color: green;
+                margin-left: 5px;
+            }
+
+            &--yellow {
+                background-color: yellow;
+            }
+
+            &--none {
+                display: none;
+            }
+        }
+    }
+
+    &__footer {
+        display: flex;
+
+        &-button {
+            margin: 0 auto;
+
+            font-size: 18px;
+            background-color: #00ff23;
+            padding: 13px;
+            border-radius: 4px;
+        }
+
+        &-button:hover{
+            background-color: #00c415;
+        }
+
+        &-button:active{
+            background-color: #00d716;
+        }
+    }
+
+}
