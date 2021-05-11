@@ -1,0 +1,9 @@
+/node_modules
+/assets/icons
+# Build
+/build
+/dist
+
+# Files
+.idea
+.DS_Store
